@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.cover {
+    margin: 0px;
+    opacity: .9;
+    height: 50vh;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul {
+    display: inline;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 90px;
+}
+
+.nav li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(246, 143, 92);
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 30px;
+    right: 25px;
+}
+
+#theme-toggle img {
+    border-style: double;
+    border-color: black;
+    position: fixed;
+    top: 30px;
+    right: 25px;
+    background-color: aliceblue;
+    max-width: 25px;
+    max-height: 25px;
+    cursor: pointer;
+}
+
+.nav li a:hover {
+    color: lightgray;
+    border-bottom: 1px solid rgb(115, 196, 93);
+}
+
+.cover p {
+    position: relative;
+    bottom: 20%;
+    font-size: 100px;
+    margin-left: 35vw;
+    color: #d3e9c8; /* Contrasting color for Rishabh Rai */
+}
+
+.links {
+    position: absolute;
+    top: 220px;
+    left: 370px;
+}
+
+.links li {
+    display: inline;
+    margin-inline: 20px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.links li a img {
+    border-radius: 50%;
+    width: 2rem;
+    padding: 2px;
+}
+
+.links li a img:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    transform: scale(1.2);
+}
+
+#about {
+    margin: 30px;
+    font-size: large;
+    text-align: center;
+}
+
+#skills {
+    margin: 20px;
+    text-align: center;
+}
+
+#skills .container {
+    width: 80vw;
+    height: 50vh;
+    background-color: rgb(147, 193, 189);
+    position: relative;
+    left: 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#skills .container>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(43, 161, 135);
+    transition: box-shadow 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#skills .container>div:hover {
+    background-color: rgb(149, 237, 49);
+    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.5); /* Neon glow effect */
+    transform: scale(1.1);
+}
+
+.skill {
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+#projects {
+    display: none; /* Removed projects section */
+}
+
+#experience {
+    margin: 20px;
+    text-align: center;
+}
+
+.experience_container {
+    margin-left: 8vw;
+    background-color: rgb(220, 224, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 80vw;
+}
+
+.experience_box {
+    background-color: rgba(255, 255, 255
